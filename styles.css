@@ -1,0 +1,151 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #dadada;
+    margin: 0;
+    color: #333;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #004070;
+    color: white;
+    height: 10vh;
+}
+.userSide{
+    display: flex;
+    align-items: center;
+    padding: 2vw;
+}
+#userName {
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+/* Título */
+h1 {
+    text-align: center;
+    padding: 20px;
+}
+
+/* CONTENEDOR PRINCIPAL */
+.container {
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+
+/* COLUMNAS */
+.form-section,
+.list-section {
+    background-color: rgb(161, 161, 161);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 6px rgba(0,0,0,0.1);
+}
+
+/* Formulario más estrecho */
+.form-section {
+    flex: 1;
+    padding: 3vw;
+    max-width: 350px;
+}
+
+/* Lista ocupa más */
+.list-section {
+    flex: 2;
+}
+
+/* Inputs */
+input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Botones */
+button {
+    background-color: #0078d4;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #005fa3;
+}
+
+/* Lista */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background-color: #f9fafb;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tituloTarea{
+    font-weight: bold;
+}
+
+/* Estados de tareas */
+li.tareaVencida {
+    background-color: #ffcccc;
+    border-left: 4px solid #e74c3c;
+}
+
+li.tareaProxima {
+    background-color: #ffe6cc;
+    border-left: 4px solid #f39c12;
+}
+
+li.tareaNormal {
+    background-color: #d4edda;
+    border-left: 4px solid #28a745;
+}
+li.tareaSinFecha {
+    background-color: #cce5ff;
+    border-left: 4px solid #007bff;
+}
+
+/* Botón eliminar */
+.botonEliminar {
+    margin: 1vw;
+    background-color: #e74c3c;
+}
+
+.botonEliminar:hover {
+    background-color: #c0392b;
+}
+
+/* LOGIN centrado */
+#login-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: 40px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 6px rgba(0,0,0,0.1);
+}
+
+.error{
+    color: red;
+    margin-top: 10px;
+}
