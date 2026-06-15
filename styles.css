@@ -163,6 +163,11 @@ li.tareaSinFecha {
         font-size: 1.5vh;
     }
 
+    #login-container {
+        max-width: 80vw;
+        margin: 2vw auto;
+    }
+
     .container {
         flex-direction: column;
         padding: 10px;
