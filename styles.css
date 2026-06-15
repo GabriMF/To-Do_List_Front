@@ -40,6 +40,8 @@ h1 {
 /* COLUMNAS */
 .form-section,
 .list-section {
+    width: 100vw;
+    margin: 2vw;
     background-color: rgb(161, 161, 161);
     padding: 20px;
     border-radius: 8px;
@@ -49,13 +51,13 @@ h1 {
 /* Formulario más estrecho */
 .form-section {
     padding: 3vw;
-    max-width: 80vw;
+    max-width: 30vw;
 }
 
 /* Lista ocupa más */
 .list-section {
     padding: 3vw;
-    max-width: 80vw;
+    max-width: 70vw;
 }
 
 /* Inputs */
@@ -168,9 +170,10 @@ li.tareaSinFecha {
 
     .form-section,
     .list-section {
-        width: 100%;
+        width: 80vw;
         margin:2vh;
     }
+
 
     li {
         flex-direction: column;
