@@ -168,9 +168,8 @@ li.tareaSinFecha {
         padding: 10px;
     }
 
-    .form-section,
-    .list-section {
-        width: 80vw;
+    .form-section, .list-section {
+        max-width: 80vw;
         margin:2vh;
     }
 
